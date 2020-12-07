@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "private": true,
+  "version": "1.27.0",
+  "license": "Apache 2.0",
+  "scripts": {
+    "dev": "gatsby develop -H 0.0.0.0",
+    "dev:clean": "yarn clean && yarn dev",
+    "build": "gatsby build",
+    "build:clean": "yarn clean && gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.24.14",
+    "gatsby-remark-autolink-headers": "^2.7.0",
+    "gatsby-remark-table-of-contents": "^0.2.1",
+    "gatsby-theme-carbon": "^1.27.1",
+    "gatsby-transformer-remark": "^2.12.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
